@@ -132,5 +132,5 @@ if __name__ == '__main__':
         cmdclass={"build_ext": build_ext},
         ext_modules=ext_modules,
         install_requires=requirements_from_file('requirements.txt'),
-        python_requires='>=3.9',
+        python_requires='>=3.8',
     )
