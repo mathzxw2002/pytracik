@@ -120,5 +120,5 @@ if __name__ == '__main__':
         cmdclass={"build_ext": build_ext},
         ext_modules=trac_ik_module,
         install_requires=requirements_from_file('requirements.txt'),
-        python_requires='>=3.9',
+        python_requires='>=3.8',
     )
